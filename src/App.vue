@@ -75,6 +75,14 @@ export default {
           name: 'pingshan',
           url: '/pingshan'
         },
+        {
+          name: 'treeMenu',
+          url: '/treeMenu'
+        },
+        {
+          name: 'vueSlot',
+          url: '/vueSlot'
+        },
       ]
     }
   }

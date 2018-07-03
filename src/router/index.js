@@ -13,6 +13,8 @@ import lineBmap from '@/components/lineBmap'
 import kunming from '@/components/kunming'
 import transition from '@/components/transition'
 import pingshan from '@/components/pingshan'
+import treeMenu from '@/components/treeMenu'
+import vueSlot from '@/components/vueSlot'
 // import banber from '@/components/banber'
 // import wordcloud from '@/components/wordcloud'
 
@@ -85,6 +87,16 @@ export default new Router({
             path: '/pingshan',
             name: 'pingshan',
             component: pingshan
+        },
+        {
+            path: '/treeMenu',
+            name: 'treeMenu',
+            component: treeMenu
+        },
+        {
+            path: '/vueSlot',
+            name: 'vueSlot',
+            component: vueSlot
         },
         // {
         //     path: '/banber',
