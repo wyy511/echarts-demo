@@ -83,6 +83,10 @@ export default {
           name: 'vueSlot',
           url: '/vueSlot'
         },
+        {
+          name: 'gaode',
+          url: '/gaode'
+        },
       ]
     }
   }

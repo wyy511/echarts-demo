@@ -15,6 +15,7 @@ import transition from '@/components/transition'
 import pingshan from '@/components/pingshan'
 import treeMenu from '@/components/treeMenu'
 import vueSlot from '@/components/vueSlot'
+import gaode from '@/components/gaode'
 // import banber from '@/components/banber'
 // import wordcloud from '@/components/wordcloud'
 
@@ -97,6 +98,11 @@ export default new Router({
             path: '/vueSlot',
             name: 'vueSlot',
             component: vueSlot
+        },
+        {
+            path: '/gaode',
+            name: 'gaode',
+            component: gaode
         },
         // {
         //     path: '/banber',
