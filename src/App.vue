@@ -87,6 +87,10 @@ export default {
           name: 'gaode',
           url: '/gaode'
         },
+        {
+          name: 'authCode',
+          url: '/authCode'
+        },
       ]
     }
   }

@@ -16,6 +16,7 @@ import pingshan from '@/components/pingshan'
 import treeMenu from '@/components/treeMenu'
 import vueSlot from '@/components/vueSlot'
 import gaode from '@/components/gaode'
+import authCode from '@/components/authCode'
 // import banber from '@/components/banber'
 // import wordcloud from '@/components/wordcloud'
 
@@ -103,6 +104,11 @@ export default new Router({
             path: '/gaode',
             name: 'gaode',
             component: gaode
+        },
+        {
+            path: '/authCode',
+            name: 'authCode',
+            component: authCode
         },
         // {
         //     path: '/banber',

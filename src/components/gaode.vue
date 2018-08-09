@@ -11,8 +11,8 @@ export default {
     if (window.AMap && window.AMapUI) {
       this.initMap()
     // 未载入高德地图API，则先载入API再初始化
-    } else {
       this.getGeolocation()
+    } else {
       // this.initMap()
     }
   },
@@ -34,6 +34,7 @@ export default {
               panToLocation: true,     //定位成功后将定位到的位置作为地图中心点，默认：true
               zoomToAccuracy:true      //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
           });
+          console.log(geolocation)
           mapObj.addControl(geolocation);
           geolocation.getCurrentPosition();
           AMap.event.addListener(geolocation, 'complete', this.onComplete);//返回定位信息
