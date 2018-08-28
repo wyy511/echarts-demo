@@ -17,6 +17,8 @@ import treeMenu from '@/components/treeMenu'
 import vueSlot from '@/components/vueSlot'
 import gaode from '@/components/gaode'
 import authCode from '@/components/authCode'
+import dragBox from '@/components/dragBox'
+import effectScatter from '@/components/effectScatter'
 // import banber from '@/components/banber'
 // import wordcloud from '@/components/wordcloud'
 
@@ -109,6 +111,16 @@ export default new Router({
             path: '/authCode',
             name: 'authCode',
             component: authCode
+        },
+        {
+            path: '/dragBox',
+            name: 'dragBox',
+            component: dragBox
+        },
+        {
+            path: '/effectScatter',
+            name: 'effectScatter',
+            component: effectScatter
         },
         // {
         //     path: '/banber',

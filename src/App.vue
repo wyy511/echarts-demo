@@ -91,6 +91,14 @@ export default {
           name: 'authCode',
           url: '/authCode'
         },
+        {
+          name: 'dragBox',
+          url: '/dragBox'
+        },
+        {
+          name: 'effectScatter',
+          url: '/effectScatter'
+        },
       ]
     }
   }
